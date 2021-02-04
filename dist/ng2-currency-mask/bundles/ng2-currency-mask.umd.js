@@ -463,7 +463,7 @@
             this.keyValueDiffer = keyValueDiffers.find({}).create();
         }
         CurrencyMaskDirective.prototype.ngAfterViewInit = function () {
-            console.log('test');
+            console.log('testing');
             this.elementRef.nativeElement.style.textAlign = this.options.align ? this.options.align : this.optionsTemplate.align;
         };
         CurrencyMaskDirective.prototype.ngDoCheck = function () {
