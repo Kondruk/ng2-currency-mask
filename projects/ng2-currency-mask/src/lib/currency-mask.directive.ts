@@ -44,7 +44,7 @@ export class CurrencyMaskDirective implements AfterViewInit, ControlValueAccesso
     }
 
     ngAfterViewInit() {
-        console.log('test');
+        console.log('testing');
         this.elementRef.nativeElement.style.textAlign = this.options.align ? this.options.align : this.optionsTemplate.align;
     }
 
